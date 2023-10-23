@@ -1,0 +1,26 @@
+.custom-donut-chart {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px; /* Set the desired size */
+    height: 200px; /* Set the desired size */
+    border: 8px solid transparent;
+    border-radius: 50%;
+    position: relative;
+  }
+  
+  .segment {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: 8px solid transparent;
+    border-top: 8px solid currentColor; /* This sets the segment color */
+    border-radius: 50%;
+    transform: rotate(0deg);
+    transform-origin: 50% 100%;
+    transition: transform 0.5s;
+  }
+  
+  .segment.empty {
+    border-top: 8px solid transparent; /* Empty segment has no color */
+  }

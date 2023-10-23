@@ -1,0 +1,36 @@
+.card {
+  width: 300px;
+  margin: 0 auto;
+  padding: 11px;
+}
+
+.button-container {
+  text-align: center;
+}
+
+.custom-button {
+  background-color: transparent;
+  font-size: 14px;
+  border-radius: 3px;
+  border: 1px solid #000; /* Black border for the button */
+  width: 100%; /* Button width matches the card */
+  padding: 10px 20px; /* Adjust padding as needed */
+}
+.priceTag{
+  padding: 20px;
+}
+.billingSecHeader{
+  color: #6B778C;
+  font-size: 10px;
+  line-height: 14px;
+}
+.billingFstHeader{
+  color: #384551;
+  font-size: 20px;
+  font-weight: 700;
+}
+.billingCard{
+    border-width: 2px;
+    border-radius: 4px, 1px, 1px, 1px;
+    border-color: #CACACA ;
+  }

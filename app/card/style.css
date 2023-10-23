@@ -1,0 +1,82 @@
+.card-row {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    flex-wrap: wrap;
+
+    
+    justify-content: center;
+    /* max-width: 75%;
+    
+    padding: 10px; */
+
+}
+
+.card {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: relative;
+    text-align: center;
+
+
+
+}
+
+.top-right,
+.bottom-right,
+.bottom-left {
+    position: absolute;
+    font-size: 12px;
+}
+
+.top-right {
+    top: 10px;
+    left: 10px;
+}
+
+.bottom-right {
+    bottom: 10px;
+    right: 10px;
+}
+
+.bottom-left {
+    bottom: 10px;
+    left: 10px;
+}
+
+.center {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circular-progress {
+    width: 150px;
+}
+
+/* Add responsive styles using media queries */
+@media (max-width: 768px) {
+    .card {
+        width: 150px;
+        height: 250px;
+    }
+}
+
+@media (max-width: 480px) {
+    .card {
+        width: 100px;
+        height: 200px;
+    }
+}
