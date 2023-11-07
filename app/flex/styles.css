@@ -1,0 +1,27 @@
+/* Reset default margin and padding */
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Define a wrapper for your content and footer */
+  .content-wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  /* Style the content */
+  .content {
+    flex-grow: 1;
+    padding: 1rem;
+  }
+  
+  /* Style the footer */
+  .footer {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    position: sticky;
+    bottom: 0;
+  }
